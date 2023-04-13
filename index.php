@@ -1,5 +1,5 @@
 <?php
-require("db.php");
+// require("db.php");
 ?>
 
 <!DOCTYPE html>
@@ -16,6 +16,7 @@ require("db.php");
   <meta name="description" content="" />
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/table.css">
 
   <?php require("title.php") ?>
 
@@ -152,6 +153,37 @@ require("db.php");
         </div>
       </div>
     </div>
+  </section>
+
+
+  <section style="margin-top: 100px;">  
+  <table class="container">
+    <h1>Sales</h1>
+    <thead>
+      <tr>
+        <th><h1>Items</h1></th>
+        <th><h1>Sales</h1></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dolls</td>
+        <td>100+</td>
+      </tr>
+      <tr>
+        <td>Bikes</td>
+        <td>200+</td>
+      </tr>
+      <tr>
+        <td>Car Toys</td>
+        <td>1000+</td>
+      </tr>
+      <tr>
+        <td>Planes</td>
+        <td>500+</td>
+      </tr>
+    </tbody>
+  </table>
   </section>
 
   <!-- end saving section -->
