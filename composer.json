@@ -3,7 +3,7 @@
     "description": "Toyshop is an online marketplace",
     "type": "project",
     "require": {
-        "php": "^8.2",
+	"php": "^7.3",
         "ext-json": "*",
         "vlucas/phpdotenv": "^5.6"
     },
